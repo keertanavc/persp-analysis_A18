@@ -9,4 +9,5 @@ def test_factor_fn():
     assert f.smallest_factor(157) == 157, "failed on a large prime number"
     assert f.smallest_factor(6) == 2, "failed on a small non-prime number"
     assert f.smallest_factor(77) == 7, "failed on a large non-prime number"
+    assert f.smallest_factor(25) == 5, "failed on a square of a prime"
     assert f.smallest_factor(0) == None, "incorrect input"
